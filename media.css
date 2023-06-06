@@ -1,0 +1,1751 @@
+
+         /* for mobile  */
+@media (max-width:450px){
+            /* navbar */
+    .nev{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        position:fixed;   
+        z-index: 1;
+        background: #fff;
+    }
+    .nev .logo{
+        width: 130px;
+        margin-left: 10px;
+    }
+    .logo img{
+        width: 20px;
+        margin: 20px 0px;
+    }
+    .logo h5{
+        margin: 0px 5px;
+        font-size: 20px;
+    }
+    /* .nev .nevbar{
+        display: none;
+    } */
+    .nev .nevbar{
+        /* border: 1px solid black;     */
+        line-height: 60px;
+        position: absolute;
+        margin: 59px auto;
+        width: 450px;
+        height: 450px;
+        display: none;
+        background: #fff;
+    }
+    .nevbar ul{
+        display: block;
+        list-style: none;
+        height: inherit;
+        /* border: 1px solid black; */
+    }
+    .nevbar ul li{
+        /* padding-right: 30px; */
+        font-size: 17px;
+        font-weight: normal;
+        margin: 0px 30px;
+        font-size: 20px;
+    }
+    .nevbar .book-now{
+        /* border: 1px solid black; */
+        position: absolute;
+        width: 100px;
+        height: 40px;
+        margin: 10px 30px;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        text-decoration: none;
+        line-height: 40px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        background: #2c3038;
+        color: #fff;
+    }
+    .nev .fa-navicon{
+        line-height: 60px;
+        font-size: 30px;  
+        margin-right: 20px;
+        display: block;
+    }    
+        /* header */
+        header{
+            height: 600px;
+            position: relative;
+            display: flex
+        }
+        header img{
+            height: 600px;
+            background-size: cover;
+            filter: brightness(70%);
+        }
+        header .text{
+            height: 500px;
+        }
+        .text h6{
+            margin: 200px 20px;
+            font-size: 10px;
+        }
+        .text h3{
+            margin: 220px 20px;
+            font-size: 30px;
+        }
+        .text p{
+            margin: 280px 20px;
+            width: 350px;
+        }
+        .text a{
+            margin: 370px 20px;
+            width: 100px;
+            height: 35px;
+            line-height: 35px;
+        }
+                    /*section 1 */
+                    .section1{
+                        /* border: 1px solid black; */
+                        height: 350px;
+                    }
+                    .section1 .form{
+                        border: 1px solid #dedede;
+                        width: 90%;
+                        height: 330px;
+                        margin-left:20px;
+                    }
+                    .form h4{
+                        /* border: 1px solid black; */
+                        font-size: 18px;
+                        margin: 30px 10px;
+                    } 
+                    .form a{
+                        /* border: 1px solid black; */
+                        margin: 60px 20px;
+                    }
+                    .form form{
+                        /* border: 1px solid black; */
+                        position: absolute;
+                        margin: 100px 5px;
+                        width: 90%;
+                    }
+                    .form p{
+                        /* border: 1px solid black; */
+                        margin: 260px 10px;
+                        font-size: 15px;
+                    }
+
+                    /* section2 */
+
+                    .section2{
+                        /* border: 1px solid black; */
+                        height: 1900px;
+                    }
+                    .section2  .Destination{
+                        /* border: 1px solid black; */
+                        width: 90%;
+                        height: 1850px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    .Destination h2{
+                        /* border: 1px solid black; */
+                        width: 100%;
+                        text-align: center;
+                        font-size: 30px;
+                    }
+                    .Destination p{
+                        /* border: 1px solid black; */
+                        margin: 20px 0px;
+                        font-size: 15px;
+                    }
+                    .Destination .cart{
+                        /* border: 1px solid black; */
+                        margin: 10px 0px;
+                        height: 840px;
+                        display: block;
+                    }
+                    .Destination .cart2{
+                        /* border: 1px solid black; */
+                        margin: -10px 0px;
+                        height: 840px;
+                        display: block;
+                    }
+                    .cart .paris,.cart2 .paris{
+                        /* border: 1px solid black; */
+                        width: 345px;
+                        height: 280px;
+                    }
+                    .paris h1{
+                        /* border: 1px solid black; */
+                        font-size: 16px;
+                        height: 20px;
+                        line-height: 20px;
+                    }
+                    
+        /*    section3         */
+                    .section3{
+                        border: 1px solid black;
+                        /* position: relative; */
+                        width: 100%;
+                        height: 400px;
+                        display: flex;
+                    }
+                    .section3 .transparent{
+                        width: 90%;
+                        margin: 0px 20px;
+                    }
+                    .transparent h1{
+                        font-size: 22px;
+                    }
+                    .transparent p{
+                        margin: 190px auto;
+                        font-size: 15px;
+                    }
+                    .transparent a{
+                         margin: 290px -60px;
+                         width: 130px;
+                         height: 40px;
+                         line-height: 40px;
+                    }
+
+            /*          section4        */
+
+
+                    .section4{
+                        position: relative;
+                        width: 100%;
+                        height: 690px;
+                    }
+                    .section4 .Explore{
+                        position: absolute;
+                        width: 90%;
+                        height: 630px;
+                        margin: 30px 20px;
+                        display: block;
+                    }
+                    .Explore aside{
+                        width: 100%;
+                        height: 330px;
+                    }
+                    .Explore article{
+                        width: 100%;
+                        height: 300px;
+                    }
+                    article h1{
+                        font-size: 30px;
+                        margin: 15px 0px;
+                    }
+                    article p{
+                        margin: 120px 0px;
+                        font-size: 15px;
+                    }
+                    article .btn{
+                        position: absolute;
+                        margin: 240px 0px;
+                        width: 270px;
+                        height: 50px;
+                    }
+
+         /*          section5      */
+
+                    .section5{
+                        position: relative;
+                        width: 100%;
+                        height: 330px;
+                        background: #f8f9fa;
+                    }
+                    .section5 .icons{
+                        position: relative;
+                        width: 90%;
+                        height: 280px;
+                        margin: 30px 20px;
+                        display: flex;
+                        gap: 20px;
+                    }
+                    .icons .icon{
+                        position: relative;
+                        width: 280px;
+                        height: 240px;
+                        margin: 30px 0px;
+                    }
+                    .icon .icondiv{
+                        position: absolute;
+                        width: 65px;
+                        height: 65px;
+                        background: rgba(225, 58, 70, 0.09);
+                        border-radius: 50%;
+                        text-align: center;
+                    }
+                    .icondiv i{
+                        color: #f05448;
+                        font-size: 27px;
+                        line-height: 65px;
+                    }
+                    .icon h3{
+                        position: absolute;
+                        margin: 80px 0px;
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                    .icon p{
+                        position: absolute;
+                        margin: 140px 0px;
+                        font-size: 10px;
+                    }
+                    .icon a{
+                        position: absolute;
+                        margin: 215px 0px;
+                        text-decoration: none;
+                        color: #f05448;
+                        font-size: 17px;
+                        font-weight: 600;
+                    }
+
+        /*         section6        */
+
+                    .section6{
+                        height: 950px;
+                    }
+                    .section6 .review{
+                        width: 90%;
+                        height: 900px;
+                        margin: 30px 30px; 
+                        display: flex;  
+                        flex-wrap: wrap;
+                        gap: 20px;
+                    }
+                    .review .packages{
+                        width: 150px;
+                    }
+                    .packages h3{
+                        font-size: 15px;
+                    }
+                    .packages p{
+                        font-size: 14px;
+                    }
+                    .packages .star{
+                        margin: 60px 0px;
+                    }
+
+          /*    section7        */
+
+          .section7{
+            width: 100%;
+            height: 295px;
+        }
+        .section7 .work{
+            width: 90%;
+            height: 160px;
+            margin: 80px 20px;
+            gap: 10px;
+        }
+        .work .Experience{
+            width: 310px;
+            height: 140px;
+        }
+        .Experience h1{
+            font-size: 30px;
+           margin: 15px 0px;  
+           width: 100px; 
+        }
+        .Experience p{
+            font-size: 20px;
+           margin: 90px 0px;  
+           width: 100px; 
+        }
+
+        /*      section8         */
+
+        .section8{
+            height: 800px;
+            background: #f8f9fa;
+        }
+        .section8 h1{
+            font-size: 30px;
+            margin: 50px 0px;
+        }
+        .section8 p{
+            font-size: 15px;
+            margin-top: -30px;
+            margin-bottom: 50px;
+        
+        }
+        .section8 .team{
+            width: 90%;
+            height: 630px;
+            margin: 50px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .team .info{
+            width: 150px;
+            height: 300px;
+        }
+        .info h1{
+            font-size: 16px;
+            margin: 0px 0px;
+        }
+        .info p{
+            margin: 35px 0px;
+            font-size: 15px;
+        }
+        .fa-facebook{
+            width: 20px;
+            height: 20px;
+        }
+        .fa-twitter{
+            width: 20px;
+            height: 20px;
+        }
+        .fa-google-plus{
+            width: 24px;
+            height: 20px;
+        }
+
+    /*      section9       */
+
+    .section9{
+        height: 1070px;
+    }
+    .section9 h1{
+        font-size: 30px;
+        margin: 30px 0px;
+    }
+    .section9 .Clients{
+        width: 90%;
+        height: 951px;
+        margin: 100px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .Clients .Client{
+        border: 1px solid #dedede;
+        width: 350px;
+        height: 300px;
+        padding: 35px 20px;
+    }
+    .Client p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .Client .rclient{
+        width: 310px;
+        height: 130px;
+    }
+    .rclient img{
+        margin: 35px 5px;
+        float: left;
+    }
+    .rclient .name{
+        margin: 10px 70px;
+    }
+    .name p{
+        font-size: 11px;
+    }
+
+    /*      footer    */
+
+    .section10{
+        height: 780px;
+        background: #031427;
+    }
+    .section10 .footer{
+        width: 90%;
+        height: 725px;
+        margin: 30px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+}
+    /*       for tablet vartical     */
+@media (min-width: 451px) and (max-width: 760px){
+    /* navbar */
+    .nev{
+        /* border: 1px solid black; */
+        width: 100%;
+        /* height: 60px; */
+        /* display: flex; */
+        /* position:fixed;    */
+        /* z-index: 1; */
+        /* background: #fff; */
+    }
+    .nev .logo{
+        /* border: 1px solid black; */
+        width: 170px;
+        margin-left: 50px;
+    }
+    .logo img{
+        /* border: 1px solid black; */
+        width: 25px;
+        height: 25px;
+        margin: 15px 0px;
+    }
+    .logo h5{
+        /* border: 1px solid black; */
+        margin: 0px 5px;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .nev .nevbar{
+        /* border: 1px solid black;     */
+        position: absolute;
+        line-height: 60px;
+        margin: 60px 0px;
+        width: 760px;
+        height: 450px;
+        display: none;
+        background: #fff;
+    }
+    .nevbar ul{
+        display: block;
+        list-style: none;
+        /* border: 1px solid black; */
+        width: inherit;
+    }
+    .nevbar ul li{
+        font-size: 20px;
+        font-weight: normal;
+        width: inherit;
+        /* border: 1px solid black; */
+        margin: 0px 30px;   
+    }
+    .nevbar .book-now{
+        /* border: 1px solid black; */
+        position: absolute;
+        width: 120px;
+        height: 50px;
+        margin: 10px 30px;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        text-decoration: none;
+        line-height: 50px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        background: #2c3038;
+        color: #fff;
+    }
+    .nev .fa-navicon{
+        /* border: 1px solid black; */
+        /* line-height: 60px; */
+        /* font-size: 30px;   */
+        display: block;
+        margin-right: 10px;
+        z-index: 1;
+    }
+
+    /*   header  */
+
+    header{
+        /* border:1px solid black; */
+        height: 600px;
+        position: relative;
+        display: flex
+    }
+    header img{
+        /* border:1px solid black; */
+        height: 600px;
+        background-size: cover;
+        filter: brightness(70%);
+    }
+    header .text{
+        /* border:1px solid black; */
+        height: 500px;
+    }
+    .text h6{
+        /* border:1px solid black; */
+        margin: 190px auto auto 50px;
+        font-size: 13px;
+    }
+    .text h3{
+        /* border:1px solid black; */
+        margin: 220px 50px;
+        font-size: 30px;
+    }
+    .text p{
+        /* border:1px solid black; */
+        margin: 280px 50px;
+        width: 350px;
+    }
+    .text a{
+        /* border:1px solid black; */
+        margin: 370px 50px;
+        width: 100px;
+        height: 35px;
+        line-height: 35px;
+    }
+    /*section 1 */
+    .section1{
+        height: 350px;
+        /* border: 1px solid black; */
+    }
+    .section1 .form{
+        border: 1px solid #dedede;
+        width: 85%;
+        height: 330px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .form h4{
+        font-size: 20px;
+        margin: 30px 20px;
+    } 
+    .form a{
+        margin: 60px 30px;
+    }
+    .form form{
+        /* border: 1px solid black; */
+        position: absolute;
+        margin: 100px 0px;
+        width: 85%;
+    }
+    .form p{
+        /* border: 1px solid black; */
+        width: 80%;
+        margin: 270px 10px;
+        font-size: 15px;
+    }
+    /* section2 */
+
+    .section2{
+        /* border: 1px solid black; */
+        height: 510px;
+    }
+    .section2  .Destination{
+        /* border: 1px solid black;  */
+        width: 85%;
+        height: 500px;
+        /* position: relative; */
+        margin-right:auto;
+        margin-left: auto;
+    }
+     .Destination h2{
+         /* border: 1px solid black;  */
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .Destination p{
+        /* border: 1px solid black; */
+        margin: 20px 0px;
+        font-size: 15px;
+    }
+    .Destination .cart{
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        height: 170px;
+        /* display: block; */
+    }
+    .Destination .cart2{
+        /* border: 1px solid black; */
+        margin: -10px 0px;
+        height: 170px;
+        /* display: block; */
+    }
+    .cart .paris,.cart2 .paris{
+        width: 345px;
+        height: 160px;
+        /* border: 1px solid black; */
+    }
+    .paris h1{
+        font-size: 16px;
+        height: 20px;
+        line-height: 10px;
+        /* border: 1px solid black; */
+    }
+     /*    section3         */
+
+     .section3{
+        /* border: 1px solid black; */
+        /* position: relative; */
+        width: 100%;
+        height: 400px;
+        display: flex;
+    }
+    .section3 .transparent{
+        /* border: 1px solid black; */
+        width: 85%;
+        margin: 0px 45px;
+    }
+    .transparent h1{
+        /* border: 1px solid black; */
+        font-size: 22px;
+    }
+    .transparent p{
+        /* border: 1px solid black; */
+        margin: 190px auto;
+        font-size: 15px;
+    }
+    .transparent a{
+        /* border: 1px solid black; */
+         margin: 290px -60px;
+         width: 130px;
+         height: 40px;
+         line-height: 40px;
+    }
+     /*          section4        */
+     .section4{
+        /* border: 1px solid black; */
+        position: relative;
+        width: 100%;
+        height: 600px;
+    }
+    .section4 .Explore{
+        /* border: 1px solid black; */
+        position: absolute;
+        width: 85%;
+        height: 550px;
+        margin: 30px 45px;
+        display: block;
+    }
+    .Explore aside{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 330px;
+    }
+    .Explore article{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 220px;
+    }
+    article h1{
+        /* border: 1px solid black; */
+        font-size: 25px;
+        margin: 15px 0px;
+    }
+    article p{
+        /* border: 1px solid black; */
+        margin: 60px 0px;
+        font-size: 15px;
+    }
+    article .btn{
+        /* border: 1px solid black; */
+        position: absolute;
+        margin: 140px 0px;
+        width: 270px;
+        height: 50px;
+    }
+    /*          section5      */
+
+    .section5{
+        /* border: 1px solid black; */
+        position: relative;
+        width: 100%;
+        height: 330px;
+        background: #f8f9fa;
+    }
+    .section5 .icons{
+        /* border: 1px solid black; */
+        position: relative;
+        width: 85%;
+        height: 280px;
+        margin: 30px auto;
+        display: flex;
+        gap: 20px;
+    }
+    .icons .icon{
+        /* border: 1px solid black; */
+        position: relative;
+        width: 280px;
+        height: 240px;
+        margin: 30px 0px;
+    }
+    .icon .icondiv{
+        /* border: 1px solid black; */
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        background: rgba(225, 58, 70, 0.09);
+        border-radius: 50%;
+        text-align: center;
+    }
+    .icondiv i{
+        /* border: 1px solid black; */
+        color: #f05448;
+        font-size: 27px;
+        line-height: 65px;
+    }
+    .icon h3{
+        /* border: 1px solid black; */
+        position: absolute;
+        margin: 80px 0px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .icon p{
+        /* border: 1px solid black; */
+        position: absolute;
+        margin: 140px 0px;
+        font-size: 10px;
+    }
+    .icon a{
+        /* border: 1px solid black; */
+        position: absolute;
+        margin: 200px 0px;
+        text-decoration: none;
+        color: #f05448;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    /*         section6        */
+
+    .section6{
+        height: 310px;
+        /* border: 1PX solid black; */
+    }
+    .section6 .review{
+        /* border: 1px solid black; */
+        width: 85%;
+        height: 250px;
+        margin: 30px 45px; 
+        display: flex;  
+        /* flex-wrap: wrap; */
+        gap: 5px;
+    }
+    .review .packages{
+        /* border: 1px solid black; */
+        width: 130px;
+        height: 250px;
+        /* margin: 0px auto; */
+    }
+    .packages h3{
+        /* border: 1px solid black; */
+        font-size: 15px;
+    }
+    .packages p{
+        /* border: 1px solid black; */
+        font-size: 14px;
+        margin: 50px 0px;
+    }
+    .packages .star{
+        /* border: 1px solid black; */
+        margin: 90px 0px;
+    }
+     /*    section7        */
+
+     .section7{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 295px;
+    }
+    .section7 .work{
+        /* border: 1px solid black; */
+        width: 85%;
+        height: 160px;
+        margin: 80px 45px;
+        gap: 10px;
+    }
+    .work .Experience{
+        /* border: 1px solid black; */
+        width: 310px;
+        height: 140px;
+    }
+    .Experience h1{
+        /* border: 1px solid black; */
+        font-size: 30px;
+       margin: 15px 0px;  
+       width: 100px; 
+    }
+    .Experience p{
+        /* border: 1px solid black; */
+        font-size: 20px;
+       margin: 90px 0px;  
+       width: 100px; 
+    }
+    /*      section8         */
+
+    .section8{
+        /* border: 1px solid black; */
+        height: 830px;
+        height: auto;
+        /* height: auto; */
+        background: #f8f9fa;
+    }
+    .section8 h1{
+        /* border: 1px solid black; */
+        font-size: 30px;
+        margin: 50px 0px;
+    }
+    .section8 p{
+        /* border: 1px solid black; */
+        font-size: 15px;
+        margin-top: -30px;
+        margin-bottom: 50px;
+    
+    }
+    .section8 .team{
+        /* border: 1px solid black; */
+        width: 85%;
+        /* height: 630px; */
+        height: auto;
+        margin: 100px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        position: relative;
+    }
+    .team .info{
+        /* border: 1px solid black; */
+        width: 150px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .info h1{
+        /* border: 1px solid black; */
+        font-size: 16px;
+        margin: 0px 0px;
+    }
+    .info p{
+        /* border: 1px solid black; */
+        margin: 35px 0px;
+        font-size: 15px;
+    }
+    .fa-facebook{
+        /* border: 1px solid black; */
+        width: 20px;
+        height: 20px;
+    }
+    .fa-twitter{
+        /* border: 1px solid black; */
+        width: 20px;
+        height: 20px;
+    }
+    .fa-google-plus{
+        /* border: 1px solid black; */
+        width: 24px;
+        height: 20px;
+    }
+    /*      section9       */
+
+    .section9{
+        /* border: 1px solid black; */
+        height: 1070px;
+    }
+    .section9 h1{
+        /* border: 1px solid black; */
+        font-size: 30px;
+        margin: 30px 0px;
+    }
+    .section9 .Clients{
+        /* border: 1px solid black; */
+        width: 85%;
+        height: 951px;
+        margin: 100px 45px;
+        display: flex;
+        flex-wrap: wrap;    
+        gap: 10px;
+        /* position: relative; */
+    }
+    .Clients .Client{
+        border: 1px solid #dedede;
+        width: auto;
+        height: 300px;
+        padding: 35px 20px;
+        margin: 0 auto;
+    }
+    .Client p{
+        /* border: 1px solid black; */
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .Client .rclient{
+        /* border: 1px solid black; */
+        width: 310px;
+        height: 130px;
+    }
+    .rclient img{
+        /* border: 1px solid black; */
+        margin: 35px 5px;
+        float: left;
+    }
+    .rclient .name{
+        /* border: 1px solid black; */
+        margin: 10px 70px;
+    }
+    .name p{
+        /* border: 1px solid black; */
+        font-size: 11px;
+    }
+       /*      footer    */
+
+       .section10{
+        /* border: 1px solid wheat; */
+        height: auto;
+        background: #031427;
+    }
+    .section10 .footer{
+        /* border: 1px solid wheat; */
+        width: 85%;
+        height: auto;
+        margin: 30px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        position: relative;
+    }
+}
+    /*       for tablet horizontal   */
+
+@media (min-width: 761px) and (max-width: 1025px){
+     /* navbar */
+     .nev{
+        /* border: 1px solid black; */
+        width: 100%;
+        /* height: 60px; */
+        /* display: flex; */
+        /* position:fixed;    */
+        /* z-index: 1; */
+        /* background: #fff; */
+    }
+    .nev .logo{
+        /* border: 1px solid black; */
+        width: 170px;
+        margin-left: 80px;
+    }
+    .logo img{
+        /* border: 1px solid black; */
+        width: 25px;
+        height: 25px;
+        margin: 15px 0px;
+    }
+    .logo h5{
+        /* border: 1px solid black; */
+        margin: 0px 5px;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .nev .nevbar{
+        /* border: 1px solid black; */
+        line-height: 60px;
+        margin: 0px auto;
+        width: auto;
+        display: flex;
+    }
+    .nevbar ul li{
+        padding-right: 20px;
+        font-size: 16px;
+    }   
+    /* .nev .fa-navicon{
+        border: 1px solid black;
+        line-height: 60px;
+        font-size: 30px;  
+        visibility: visible;
+        margin-right: 10px;
+    } */
+    /*   header  */
+
+    header{
+        /* border:1px solid black; */
+        height: 500px;
+        position: relative;
+        display: flex
+    }
+    header img{
+        /* border:1px solid black; */
+        height: 500px;
+        background-size: cover;
+        filter: brightness(70%);
+    }
+    header .text{
+        /* border:1px solid black; */
+        height: 430px;
+    }
+    .text h6{
+        /* border:1px solid black; */
+        margin: 150px 90px;
+        font-size: 13px;
+    }
+    .text h3{
+        /* border:1px solid black; */
+        margin: 220px 90px;
+        font-size: 30px;
+    }
+    .text p{
+        /* border:1px solid black; */
+        margin: 280px 90px;
+        width: 500px;
+    }
+    .text a{
+        /* border:1px solid black; */
+        margin: 370px 90px;
+        width: 100px;
+        height: 35px;
+        line-height: 35px;
+    }
+    /*section 1 */
+    .section1{
+        height: 330px;
+        /* border: 1px solid black; */
+    }
+    .section1 .form{
+        border: 1px solid #dedede;
+        width: 80%;
+        height: 300px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .form h4{
+        /* border: 1px solid black; */
+        font-size: 21px;
+        margin: 30px 20px;
+    } 
+    .form a{
+        margin: 60px 30px;
+    }
+    .form form{
+        /* border: 1px solid black; */
+        position: absolute;
+        margin: 100px 0px;
+        width: 80%;
+    }
+    .form p{
+        /* border: 1px solid black; */
+        width: 78%;
+        margin: 230px 10px;
+        font-size: 15px;
+    }
+    /* section2 */
+
+    .section2{
+        /* border: 1px solid black; */
+        height: 570px;
+    }
+    .section2  .Destination{
+        /* border: 1px solid black;  */
+        width: 80%;
+        height: 560px;
+        /* position: relative; */
+        margin-right:auto;
+        margin-left: auto;
+    }
+     .Destination h2{
+         /* border: 1px solid black;  */
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .Destination p{
+        /* border: 1px solid black; */
+        margin: 20px 0px;
+        font-size: 15px;
+    }
+    .Destination .cart{
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        height: 200px;
+        /* display: block; */
+    }
+    .Destination .cart2{
+        /* border: 1px solid black; */
+        margin: 10px 0px 0px 0px;
+        height: 200px;
+        /* display: block; */
+    }
+    .cart .paris,.cart2 .paris{
+        width: 345px;
+        height: 160px;
+        /* border: 1px solid black; */
+    }
+    .paris h1{
+        font-size: 16px;
+        height: 20px;
+        line-height: 10px;
+        /* border: 1px solid black; */
+    }
+    /*    section3         */
+
+    .section3{
+        /* border: 1px solid black; */
+        /* position: relative; */
+        width: 100%;
+        height: 400px;
+        display: flex;
+    }
+    .section3 .transparent{
+        /* border: 1px solid black; */
+        width: 80%;
+        margin: 0px 90px;
+    }
+    .transparent h1{
+        /* border: 1px solid black; */
+        font-size: 25px;
+    }
+    .transparent p{
+        /* border: 1px solid black; */
+        margin: 190px auto;
+        font-size: 16px;
+    }
+    .transparent a{
+        /* border: 1px solid black; */
+         margin: 290px -60px;
+         width: 130px;
+         height: 40px;
+         line-height: 40px;
+    }
+    /*          section4        */
+    .section4{
+        /* border: 1px solid black; */
+        position: relative;
+        width: 100%;
+        height: 450px;
+    }
+    .section4 .Explore{
+        /* border: 1px solid black; */
+        position: absolute;
+        width: 80%;
+        height: 350px;
+        margin: 50px 90px;
+        gap: 25px;
+        /* display: block; */
+    }
+    .Explore aside{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 330px;
+    }
+    .Explore article{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 330px;
+    }
+    article h1{
+        /* border: 1px solid black; */
+        font-size: 30px;
+        margin: 25px 0px;
+    }
+    article p{
+        /* border: 1px solid black; */
+        margin: 130px 0px;
+        font-size: 15px;
+    }
+    article .btn{
+        /* border: 1px solid black; */
+        position: absolute;
+        margin: 280px 0px;
+        width: 270px;
+        height: 50px;
+    }
+    article .btn .lbtn{
+        /* border: 1px solid black; */
+         margin: 0px 0px;
+         position: absolute;
+         width: 110px;
+         height: 40px;
+         line-height: 40px;
+    }
+    article .btn .rbtn{
+        /* border: 1px solid black; */
+        position: absolute;
+         width: 110px;
+         height: 40px;
+         line-height: 45px;
+         margin: 0px 110px;
+    }
+     /*          section5      */
+
+     .section5{
+        /* border: 1px solid black; */
+        position: relative;
+        width: 100%;
+        height: 330px;
+        background: #f8f9fa;
+    }
+    .section5 .icons{
+        /* border: 1px solid black; */
+        position: relative;
+        width: 80%;
+        height: 280px;
+        margin: 30px auto;
+        display: flex;
+        gap: 25px;
+    }
+    .icons .icon{
+        /* border: 1px solid black; */
+        position: relative;
+        width: 280px;
+        height: 240px;
+        margin: 30px 0px;
+    }
+    .icon .icondiv{
+        /* border: 1px solid black; */
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        background: rgba(225, 58, 70, 0.09);
+        border-radius: 50%;
+        text-align: center;
+    }
+    .icondiv i{
+        /* border: 1px solid black; */
+        color: #f05448;
+        font-size: 27px;
+        line-height: 65px;
+    }
+    .icon h3{
+        /* border: 1px solid black; */
+        position: absolute;
+        margin: 80px 0px;
+        font-size: 21px;
+        font-weight: 500;
+    }
+    .icon p{
+        /* border: 1px solid black; */
+        position: absolute;
+        margin: 120px 0px;
+        /* font-size: 10px; */
+    }
+    .icon a{
+        /* border: 1px solid black; */
+        position: absolute;
+        margin: 210px 0px;
+        text-decoration: none;
+        color: #f05448;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    /*         section6        */
+
+    .section6{
+        height: 320px;
+        /* border: 1PX solid black; */
+    }
+    .section6 .review{
+        /* border: 1px solid black; */
+        width: 80%;
+        height: 270px;
+        margin: 30px auto; 
+        display: flex;  
+        /* flex-wrap: wrap; */
+        gap: 5px;
+        position: relative;
+    }
+    .review .packages{
+        /* border: 1px solid black; */
+        width: 130px;
+        height: 260px;
+        margin: 0px auto;
+    }
+    .packages h3{
+        /* border: 1px solid black; */
+        font-size: 15px;
+    }
+    .packages p{
+        /* border: 1px solid black; */
+        font-size: 14px;
+        margin: 40px 0px;
+    }
+    .packages .star{
+        /* border: 1px solid black; */
+        margin: 70px 0px;
+    }
+    /*    section7        */
+
+    .section7{
+        border: 1px solid black;
+        width: 100%;
+        height: 295px;
+    }
+    .section7 .work{
+        /* border: 1px solid black; */
+        width: 80%;
+        height: 160px;
+        margin: 60px auto;
+        gap: 10px;
+        position: relative;
+    }
+    .work .Experience{
+        /* border: 1px solid black; */
+        width: 310px;
+        height: 160px;
+    }
+    .Experience h1{
+        /* border: 1px solid black; */
+        font-size: 30px;
+       margin: 10px auto;  
+       position: relative;
+       width: auto; 
+    }
+    .Experience p{
+        /* border: 1px solid black; */
+        font-size: 20px;
+       margin: 0px auto;  
+       position: relative;
+       width: 100px; 
+    }
+    /*      section8         */
+
+    .section8{
+        /* border: 1px solid black; */
+        height: 550px;
+        /* height: auto; */
+        background: #f8f9fa;
+    }
+    .section8 h1{
+        /* border: 1px solid black; */
+        font-size: 30px;
+        margin: 50px 0px;
+    }
+    .section8 p{
+        /* border: 1px solid black; */
+        font-size: 15px;
+        margin-top: -30px;
+        margin-bottom: 50px;
+    
+    }
+    .section8 .team{
+        /* border: 1px solid black; */
+        width: 80%;
+        /* height: 630px; */
+        height: auto;
+        margin: 100px auto;
+        display: flex;
+        /* flex-wrap: wrap; */
+        gap: 20px;
+        position: relative;
+    }
+    .team .info{
+        /* border: 1px solid black; */
+        width: 150px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .info h1{
+        /* border: 1px solid black; */
+        font-size: 16px;
+        margin: 0px 0px;
+    }
+    .info p{
+        /* border: 1px solid black; */
+        margin: 35px 0px;
+        font-size: 15px;
+    }
+    .fa-facebook{
+        /* border: 1px solid black; */
+        width: 20px;
+        height: 20px;
+    }
+    .fa-twitter{
+        /* border: 1px solid black; */
+        width: 20px;
+        height: 20px;
+    }
+    .fa-google-plus{
+        /* border: 1px solid black; */
+        width: 24px;
+        height: 20px;
+    }
+    /*      section9       */
+
+    .section9{
+        /* border: 1px solid black; */
+        height: 520px;
+    }
+    .section9 h1{
+        /* border: 1px solid black; */
+        font-size: 30px;
+        margin: 30px 0px;
+    }
+    .section9 .Clients{
+        /* border: 1px solid black; */
+        width: 80%;
+        height: 400px;
+        height: auto;
+        margin: 100px 90px;
+        display: flex;
+        /* flex-wrap: wrap;     */
+        gap: 10px;
+        /* position: relative; */
+    }
+    .Clients .Client{
+        border: 1px solid #dedede;
+        width: auto;
+        height: 370px;
+        padding: 25px 10px;
+        margin: 0 auto;
+    }
+    .Client p{
+        /* border: 1px solid black; */
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .Client .rclient{
+        /* border: 1px solid black; */
+        width: 190px;
+        height: 130px;
+        /* width: auto; */
+    }
+    .rclient img{
+        /* border: 1px solid black; */
+        margin: 35px 5px;
+        float: left;
+    }
+    .rclient .name{
+        /* border: 1px solid black; */
+        width: 130px;
+        margin: 10px 70px;
+    }
+    .name h3{
+        /* border: 1px solid black; */
+        width: 100px;
+        position: absolute;
+        margin: 20px 5px;
+        font-size: 18px;
+    }
+    .name p{
+        /* border: 1px solid black; */
+        margin: 60px 10px;
+        font-size: 11px;
+    }
+     /*      footer    */
+
+     .section10{
+        border: 1px solid #031427;
+        height: auto;
+        background: #031427;
+    }
+    .section10 .footer{
+        /* border: 1px solid wheat; */
+        width: 80%;
+        height: auto;
+        margin: 40px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        position: relative;
+    }
+}
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1026px) and (max-width: 1280px){
+ /* navbar */
+ .nev{
+    /* border: 1px solid black; */
+    width: 100%;
+    /* height: 60px; */
+    /* display: flex; */
+    /* position:fixed;    */
+    /* z-index: 1; */
+    /* background: #fff; */
+}
+.nev .logo{
+    /* border: 1px solid black; */
+    width: 170px;
+    margin-left: 150px;
+}
+.logo img{
+    /* border: 1px solid black; */
+    width: 25px;
+    height: 25px;
+    margin: 15px 0px;
+}
+.logo h5{
+    /* border: 1px solid black; */
+    margin: 0px 5px;
+    font-size: 30px;
+    line-height: 50px;
+}
+.nev .nevbar{
+    /* border: 1px solid black; */
+    line-height: 60px;
+    margin: 0px auto;
+    width: auto;
+    display: flex;
+} 
+ /*   header  */
+
+ header{
+    /* border:1px solid black; */
+    height: 500px;
+    position: relative;
+    display: flex
+}
+header img{
+    /* border:1px solid black; */
+    height: 500px;
+    background-size: cover;
+    filter: brightness(70%);
+}
+header .text{
+    /* border:1px solid black; */
+    height: 430px;
+}
+.text h6{
+    /* border:1px solid black; */
+    margin: 120px 150px;
+    font-size: 13px;
+}
+.text h3{
+    /* border:1px solid black; */
+    margin: 170px 150px;
+    font-size: 45px;
+}
+.text p{
+    /* border:1px solid black; */
+    margin: 250px 150px;
+    width: 500px;
+}
+.text a{
+    /* border:1px solid black; */
+    margin: 330px 150px;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+}  
+
+/*          section 1 */
+
+.section1{
+    height: 330px;
+    /* border: 1px solid black; */
+}
+.section1 .form{
+    border: 1px solid #dedede;
+    width: 75%;
+    height: 300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.form h4{
+    /* border: 1px solid black; */
+    font-size: 23px;
+    margin: 40px 70px;
+} 
+.form a{
+    margin: 70px 70px;
+}
+.form form{
+    /* border: 1px solid black; */
+    position: absolute;
+    margin: 130px 60px;
+    width: 69%;
+}
+.form p{
+    /* border: 1px solid black; */
+    width: 67%;
+    margin: 250px 70px;
+    font-size: 16px;
+}
+
+/*           section2 */
+
+.section2{
+    /* border: 1px solid black; */
+    height: 720px;
+}
+.section2  .Destination{
+    /* border: 1px solid black;  */
+    width: 75%;
+    height: 700px;
+    /* position: relative; */
+    margin-right:auto;
+    margin-left: auto;
+}
+ .Destination h2{
+     /* border: 1px solid black;  */
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+.Destination p{
+    /* border: 1px solid black; */
+    margin: 40px 0px;
+    font-size: 17px;
+}
+.Destination .cart{
+    /* border: 1px solid black; */
+    margin: 20px 0px;
+    height: 270px;
+    /* display: block; */
+}
+.Destination .cart2{
+    /* border: 1px solid black; */
+    margin: -20px 0px;
+    height: 260px;
+    /* display: block; */
+}
+.cart .paris,.cart2 .paris{
+    width: 300px;
+    height: 250px;
+    /* border: 1px solid black; */
+}
+.paris h1{
+    font-size: 19px;
+    height: 30px;
+    line-height: 40px;
+    /* border: 1px solid black; */
+}
+
+/*          section3 */
+
+.section3 .transparent{
+    /* border: 1px solid black; */
+    position: absolute;  
+    width: 75%;
+    height: 400px;
+    margin: 0px 150px 0px 160px; 
+    text-align: center;
+}
+
+/*      section9       */
+
+.section9{
+    /* border: 1px solid black; */
+    height: 700px;
+}
+.section9 h1{
+    /* border: 1px solid black; */
+    font-size: 40px;
+    margin: 80px 0px;
+}
+.section9 .Clients{
+    /* border: 1px solid black; */
+    width: 75%;
+    height: 471px;
+    /* height: auto; */
+    margin: 190px 160;
+    display: flex;
+    /* flex-wrap: wrap;     */
+    gap: 23px;
+    /* position: relative; */
+}
+.Clients .Client{
+    border: 1px solid #dedede;
+    width: auto;
+    height: 450px;
+    padding: 30px 20px;
+    margin: 0 auto;
+}
+.Client p{
+    /* border: 1px solid black; */
+    font-size: 22px;
+    line-height: 30px;
+}
+.Client .rclient{
+    /* border: 1px solid black; */
+    width: 260px;
+    height: 138px;
+    /* width: auto; */
+}
+.rclient img{
+    /* border: 1px solid black; */
+    margin: 45px 5px;
+    float: left;
+}
+.rclient .name{
+    /* border: 1px solid black; */
+    width: 180px;
+    margin: 20px 70px;
+}
+.name h3{
+    /* border: 1px solid black; */
+    width: 140px;
+    position: absolute;
+    margin: 30px 15px;
+    font-size: 18px;
+}
+.name p{
+    /* border: 1px solid black; */
+    margin: 55px 15px;
+    font-size: 14px;
+}
+}
